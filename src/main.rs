@@ -30,6 +30,10 @@ fn main() {
         eprintln!("Erro ao gerar gráfico: {}", erro);
     }
 
+    if let Err(erro) = plotar_weibull::plotar_weibull_linearizado(&ensaios, &weibull) {
+        eprintln!("Erro no gráfico linearizado: {}", erro);
+    }
+
     println!("\nPARÂMETROS ESTIMADOS POR MÁXIMA VEROSSIMILHANÇA");
     println!("k (forma): {:.6}", weibull.shape);
     println!("lambda (escala): {:.6} MPa", weibull.scale);
