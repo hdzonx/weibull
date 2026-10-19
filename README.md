@@ -14,7 +14,6 @@ A probabilidade acumulada de ruptura em cada tensão consultada.
 
 As tensões associadas a 5% e 10% de probabilidade acumulada de ruptura.
 
-A função fit() estima os parâmetros a partir dos dados fornecidos; portanto, os resultados serão diferentes dos  obtidos com os parâmetros ilustrativos anteriores.
 
 ##  Como interpretar os parâmetros
 
